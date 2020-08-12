@@ -1,0 +1,118 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  font-family: 'Itim', sans-serif;
+}
+
+h1, h2, h3, p {
+  color: #000;
+  margin: 0;
+}
+
+#nav-list {
+  background-color: #fff;
+  margin: 0px;
+  margin-left: 0px;
+  border: 2px solid black;
+}
+
+#title {
+  font-weight: 600;
+}
+
+.navbar-brand h1 {
+  margin: 0 20px;
+  font-weight: bold;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+}
+
+.container > .navbar-collapse {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  margin: 15px 0;
+}
+
+#nav-list a {
+  text-decoration: none;
+}
+
+#nav-list hr {
+  color: #000;
+  border: 0.1px solid black;
+  opacity: 100%;
+  size: 2px;
+  margin: 0;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cоntainer {
+  margin: 30px;
+  margin-top: 30px;
+}
+
+#header-nav {
+  background-color: #999999;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-header {
+  padding-bottom: 15px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #000;
+}
+
+.navbar-header button.navbar-toggle:focus, .navbar-header button.navbar-toggle:hover {
+  border: 1px solid #dcdcdc;
+  background-color: #99999900;
+}
+
+.navbar-header button.navbar-toggle:focus > .icon-bar, .navbar-header button.navbar-toggle:hover > .icon-bar {
+  border: 1px solid #dcdcdc;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+  margin-right: 40px;
+}
+
+#chicken, #beef, #sushi {
+  height: 300px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  background-color: #999999;
+  overflow: hidden;
+}
+
+#chicken h2, #beef h2, #sushi h2 {
+  margin-top: 5px;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 2em;
+}
+
+#chicken p, #beef p, #sushi p {
+  text-align: justify;
+  padding: 1.2% 3%;
+}
+
+#chicken a, #beef a, #sushi a {
+  text-decoration: underline;
+}
